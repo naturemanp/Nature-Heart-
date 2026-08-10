@@ -29,18 +29,21 @@ export default function Home() {
           🌿 Nature Heart
         </div>
 
-        <button
-          style={{
-            background: "transparent",
-            color: "white",
-            border: "1px solid #3b5f45",
-            borderRadius: "10px",
-            padding: "10px 16px",
-            cursor: "pointer",
-          }}
-        >
-          Log In
-        </button>
+        <a
+  href="/login"
+  style={{
+    background: "transparent",
+    color: "white",
+    border: "1px solid #3b5f45",
+    borderRadius: "10px",
+    padding: "10px 16px",
+    cursor: "pointer",
+    textDecoration: "none",
+    display: "inline-block",
+  }}
+>
+  Log In
+</a>
       </nav>
 
       <section
